@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "vanilla_plus",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Vanilla Plus",
+  "description": "A mod to improve vanilla experience",
   "authors": [
-    "Me!"
+    "Pyrix25633"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://pyrix25633.github.io/official_website/"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/vanilla_plus/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.pyrix25633.vanilla_plus.VanillaPlus"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "vanilla_plus.mixins.json"
   ],
 
   "depends": {

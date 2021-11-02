@@ -1,6 +1,6 @@
-package net.fabricmc.example.mixin;
+package net.pyrix25633.vanilla_plus.mixin;
 
-import net.fabricmc.example.ExampleMod;
+import net.pyrix25633.vanilla_plus.VanillaPlus;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -8,9 +8,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(TitleScreen.class)
-public class ExampleMixin {
+public class VanillaPlusMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		ExampleMod.LOGGER.info("This line is printed by an example mod mixin!");
+		VanillaPlus.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }
