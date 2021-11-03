@@ -11,7 +11,7 @@ public class ModItems {
 
     public static final Item DECORATOR_TOOL = registerItem("decorator_tool",
         new DecoratorToolItem(new FabricItemSettings()
-                .group(ModItemGroup.WOOD).maxDamage(256)));
+                .group(ModItemGroup.DECORATED_BLOCKS).maxDamage(256)));
 
     private static Item registerItem(String name, Item item ) {
         return Registry.register(Registry.ITEM, new Identifier(VanillaPlus.MOD_ID, name), item);

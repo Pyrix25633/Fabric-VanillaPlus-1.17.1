@@ -7,6 +7,6 @@ import net.minecraft.util.Identifier;
 import net.pyrix25633.vanilla_plus.VanillaPlus;
 
 public class ModItemGroup {
-    public static final ItemGroup WOOD = FabricItemGroupBuilder.build(new Identifier(VanillaPlus.MOD_ID, "wood"),
+    public static final ItemGroup DECORATED_BLOCKS = FabricItemGroupBuilder.build(new Identifier(VanillaPlus.MOD_ID, "wood"),
              () -> new ItemStack(ModItems.DECORATOR_TOOL));
 }

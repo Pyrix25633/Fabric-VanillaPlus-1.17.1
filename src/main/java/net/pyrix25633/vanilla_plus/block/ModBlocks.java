@@ -57,7 +57,7 @@ public class ModBlocks {
 
     private static Item registerWoodBlockItem(String name, Block block) {
         return Registry.register(Registry.ITEM, new Identifier(VanillaPlus.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings().group(ModItemGroup.WOOD)));
+                new BlockItem(block, new FabricItemSettings().group(ModItemGroup.DECORATED_BLOCKS)));
     }
 
     public static void registerModBlocks() {

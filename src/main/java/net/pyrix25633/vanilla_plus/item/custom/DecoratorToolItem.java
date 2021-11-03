@@ -46,6 +46,24 @@ public class DecoratorToolItem extends Item {
             world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
             finished = true;
         }
+        else if(clickedBlock == Blocks.OAK_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_OAK_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_OAK_LOG) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_OAK_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_OAK_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_OAK_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
 
 
 
