@@ -22,33 +22,33 @@ public class ModBlocks {
     public static final Block DECORATED_OAK_PLANKS = registerWoodBlock("decorated_oak_planks",
             new Block(FabricBlockSettings.of(Material.WOOD)
                     .strength(woodHardness, woodResistance)
-                    .jumpVelocityMultiplier(0.9f)
                     .breakByTool(FabricToolTags.AXES)
                     .sounds(BlockSoundGroup.WOOD)));
     public static final Block DECORATED_OAK_LOG = registerWoodBlock("decorated_oak_log",
             new ModLogBlock(FabricBlockSettings.of(Material.WOOD)
                     .strength(woodHardness, woodResistance)
-                    .jumpVelocityMultiplier(0.9f)
                     .breakByTool(FabricToolTags.AXES)
                     .sounds(BlockSoundGroup.WOOD)));
     public static final Block DECORATED_OAK_WOOD = registerWoodBlock("decorated_oak_wood",
             new ModLogBlock(FabricBlockSettings.of(Material.WOOD)
                     .strength(woodHardness, woodResistance)
-                    .jumpVelocityMultiplier(0.9f)
                     .breakByTool(FabricToolTags.AXES)
                     .sounds(BlockSoundGroup.WOOD)));
     public static final Block DECORATED_STRIPPED_OAK_LOG = registerWoodBlock("decorated_stripped_oak_log",
             new ModLogBlock(FabricBlockSettings.of(Material.WOOD)
                     .strength(woodHardness, woodResistance)
-                    .jumpVelocityMultiplier(0.9f)
                     .breakByTool(FabricToolTags.AXES)
                     .sounds(BlockSoundGroup.WOOD)));
     public static final Block DECORATED_STRIPPED_OAK_WOOD = registerWoodBlock("decorated_stripped_oak_wood",
             new ModLogBlock(FabricBlockSettings.of(Material.WOOD)
                     .strength(woodHardness, woodResistance)
-                    .jumpVelocityMultiplier(0.9f)
                     .breakByTool(FabricToolTags.AXES)
                     .sounds(BlockSoundGroup.WOOD)));
+    public static final Block OAK_TABLE = registerWoodBlock("oak_table",
+            new Block(FabricBlockSettings.of(Material.WOOD)
+                    .strength(woodHardness, woodResistance)
+                    .breakByTool(FabricToolTags.AXES)
+                    .sounds(BlockSoundGroup.WOOD).nonOpaque()));
 
     private static Block registerWoodBlock(String name, Block block) {
         registerWoodBlockItem(name, block);

@@ -12,5 +12,6 @@ public class ModFlammableBlocks {
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DECORATED_OAK_WOOD, Encouragement, Flammability);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DECORATED_STRIPPED_OAK_LOG, Encouragement, Flammability);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DECORATED_STRIPPED_OAK_WOOD, Encouragement, Flammability);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.OAK_TABLE, Encouragement, Flammability);
     }
 }

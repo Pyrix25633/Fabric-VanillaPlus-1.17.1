@@ -1,8 +1,8 @@
 package net.pyrix25633.vanilla_plus;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
-import net.fabricmc.fabric.impl.content.registry.FlammableBlockRegistryImpl;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.RenderLayer;
 import net.pyrix25633.vanilla_plus.block.ModBlocks;
 import net.pyrix25633.vanilla_plus.item.ModItems;
 import net.pyrix25633.vanilla_plus.registries.ModFlammableBlocks;
@@ -27,6 +27,7 @@ public class VanillaPlus implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModFlammableBlocks.registerFlammables();
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OAK_TABLE, RenderLayer.getCutout());
 
 		LOGGER.info("Hello Fabric world!");
 	}
