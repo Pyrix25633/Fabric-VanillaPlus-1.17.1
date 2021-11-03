@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.pyrix25633.vanilla_plus.VanillaPlus;
 import net.pyrix25633.vanilla_plus.block.custom.*;
+import net.pyrix25633.vanilla_plus.item.ModItemGroup;
 
 public class ModBlocks {
 
@@ -56,7 +57,7 @@ public class ModBlocks {
 
     private static Item registerWoodBlockItem(String name, Block block) {
         return Registry.register(Registry.ITEM, new Identifier(VanillaPlus.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+                new BlockItem(block, new FabricItemSettings().group(ModItemGroup.WOOD)));
     }
 
     public static void registerModBlocks() {

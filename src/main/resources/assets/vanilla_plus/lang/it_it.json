@@ -1,7 +1,11 @@
 {
+  "item.vanilla_plus.decorator_tool": "Attrezzo decoratore",
+
   "block.vanilla_plus.decorated_oak_planks": "Assi di quercia decorate",
   "block.vanilla_plus.decorated_oak_log": "Tronco di quercia decorato",
   "block.vanilla_plus.decorated_oak_wood": "Legno di quercia decorato",
   "block.vanilla_plus.decorated_stripped_oak_log": "Tronco di quercia scortecciato decorato",
-  "block.vanilla_plus.decorated_stripped_oak_wood": "Legno di quercia scortecciato decorato"
+  "block.vanilla_plus.decorated_stripped_oak_wood": "Legno di quercia scortecciato decorato",
+
+  "itemGroup.vanilla_plus.wood": "Legno"
 }
