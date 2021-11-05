@@ -56,6 +56,18 @@ public class ModLogBlock extends Block {
                     world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
                     finished = true;
                 }
+                else if(state.isOf(ModBlocks.DECORATED_ACACIA_LOG)) {
+                    world.setBlockState(pos, ModBlocks.DECORATED_STRIPPED_ACACIA_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+                    playerItem.<PlayerEntity>damage(1, player, (p) -> p.sendToolBreakStatus(hand));
+                    world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+                    finished = true;
+                }
+                else if(state.isOf(ModBlocks.DECORATED_ACACIA_WOOD)) {
+                    world.setBlockState(pos, ModBlocks.DECORATED_STRIPPED_ACACIA_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+                    playerItem.<PlayerEntity>damage(1, player, (p) -> p.sendToolBreakStatus(hand));
+                    world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+                    finished = true;
+                }
             }
         }
 

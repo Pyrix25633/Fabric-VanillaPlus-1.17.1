@@ -5,14 +5,10 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
-import net.minecraft.item.Items;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.pyrix25633.vanilla_plus.block.ModBlocks;
@@ -60,6 +56,36 @@ public class DecoratorToolItem extends Item {
         }
         else if(clickedBlock == Blocks.STRIPPED_OAK_WOOD) {
             world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_OAK_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.ACACIA_PLANKS) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_ACACIA_PLANKS.getDefaultState());
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.ACACIA_LOG) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_ACACIA_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.ACACIA_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_ACACIA_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_ACACIA_LOG) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_ACACIA_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_ACACIA_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_ACACIA_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
             context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
             world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
             finished = true;
