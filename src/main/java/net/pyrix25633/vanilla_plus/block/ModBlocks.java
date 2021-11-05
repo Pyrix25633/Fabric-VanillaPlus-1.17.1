@@ -18,7 +18,7 @@ public class ModBlocks {
 
     static final float woodHardness = 2f, woodResistance = 2f;
 
-    // Mud Blocks
+    // Oak
     public static final Block DECORATED_OAK_PLANKS = registerWoodBlock("decorated_oak_planks",
             new Block(FabricBlockSettings.of(Material.WOOD)
                     .strength(woodHardness, woodResistance)
@@ -45,7 +45,38 @@ public class ModBlocks {
                     .breakByTool(FabricToolTags.AXES)
                     .sounds(BlockSoundGroup.WOOD)));
     public static final Block OAK_TABLE = registerWoodBlock("oak_table",
+            new ModTableBlock(FabricBlockSettings.of(Material.WOOD)
+                    .strength(woodHardness, woodResistance)
+                    .breakByTool(FabricToolTags.AXES)
+                    .sounds(BlockSoundGroup.WOOD).nonOpaque()));
+    //Acacia
+    public static final Block DECORATED_ACACIA_PLANKS = registerWoodBlock("decorated_acacia_planks",
             new Block(FabricBlockSettings.of(Material.WOOD)
+                    .strength(woodHardness, woodResistance)
+                    .breakByTool(FabricToolTags.AXES)
+                    .sounds(BlockSoundGroup.WOOD)));
+    public static final Block DECORATED_ACACIA_LOG = registerWoodBlock("decorated_acacia_log",
+            new ModLogBlock(FabricBlockSettings.of(Material.WOOD)
+                    .strength(woodHardness, woodResistance)
+                    .breakByTool(FabricToolTags.AXES)
+                    .sounds(BlockSoundGroup.WOOD)));
+    public static final Block DECORATED_ACACIA_WOOD = registerWoodBlock("decorated_acacia_wood",
+            new ModLogBlock(FabricBlockSettings.of(Material.WOOD)
+                    .strength(woodHardness, woodResistance)
+                    .breakByTool(FabricToolTags.AXES)
+                    .sounds(BlockSoundGroup.WOOD)));
+    public static final Block DECORATED_STRIPPED_ACACIA_LOG = registerWoodBlock("decorated_stripped_acacia_log",
+            new ModLogBlock(FabricBlockSettings.of(Material.WOOD)
+                    .strength(woodHardness, woodResistance)
+                    .breakByTool(FabricToolTags.AXES)
+                    .sounds(BlockSoundGroup.WOOD)));
+    public static final Block DECORATED_STRIPPED_ACACIA_WOOD = registerWoodBlock("decorated_stripped_acacia_wood",
+            new ModLogBlock(FabricBlockSettings.of(Material.WOOD)
+                    .strength(woodHardness, woodResistance)
+                    .breakByTool(FabricToolTags.AXES)
+                    .sounds(BlockSoundGroup.WOOD)));
+    public static final Block ACACIA_TABLE = registerWoodBlock("acacia_table",
+            new ModTableBlock(FabricBlockSettings.of(Material.WOOD)
                     .strength(woodHardness, woodResistance)
                     .breakByTool(FabricToolTags.AXES)
                     .sounds(BlockSoundGroup.WOOD).nonOpaque()));

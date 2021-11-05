@@ -1,9 +1,9 @@
 {
 	"parent": "minecraft:block/block",
 	"textures": {
-		"0": "vanilla_plus:block/stripped_crimson_stem",
-		"1": "vanilla_plus:block/crimson_planks",
-		"particle": "vanilla_plus:block/stripped_crimson_stem"
+		"0": "minecraft:block/stripped_crimson_stem",
+		"1": "minecraft:block/crimson_planks",
+		"particle": "minecraft:block/stripped_crimson_stem"
 	},
 	"elements": [
 		{

@@ -1,9 +1,9 @@
 {
 	"parent": "minecraft:block/block",
 	"textures": {
-		"0": "vanilla_plus:block/stripped_spruce_log",
-		"1": "vanilla_plus:block/spruce_planks",
-		"particle": "vanilla_plus:block/stripped_spruce_log"
+		"0": "minecraft:block/stripped_spruce_log",
+		"1": "minecraft:block/spruce_planks",
+		"particle": "minecraft:block/stripped_spruce_log"
 	},
 	"elements": [
 		{

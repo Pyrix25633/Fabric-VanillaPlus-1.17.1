@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "vanilla_plus:decorated_oak_planks"
+    "vanilla_plus:decorated_oak_planks",
+
+    "vanilla_plus:decorated_acacia_planks"
   ]
 }

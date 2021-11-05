@@ -1,9 +1,9 @@
 {
 	"parent": "minecraft:block/block",
 	"textures": {
-		"0": "vanilla_plus:block/stripped_warped_stem",
-		"1": "vanilla_plus:block/warped_planks",
-		"particle": "vanilla_plus:block/stripped_warped_stem"
+		"0": "minecraft:block/stripped_warped_stem",
+		"1": "minecraft:block/warped_planks",
+		"particle": "minecraft:block/stripped_warped_stem"
 	},
 	"elements": [
 		{

@@ -1,9 +1,9 @@
 {
 	"parent": "minecraft:block/block",
 	"textures": {
-		"0": "vanilla_plus:block/stripped_jungle_log",
-		"1": "vanilla_plus:block/jungle_planks",
-		"particle": "vanilla_plus:block/stripped_jungle_log"
+		"0": "minecraft:block/stripped_jungle_log",
+		"1": "minecraft:block/jungle_planks",
+		"particle": "minecraft:block/stripped_jungle_log"
 	},
 	"elements": [
 		{
