@@ -60,6 +60,7 @@ public class DecoratorToolItem extends Item {
             world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
             finished = true;
         }
+        //Acacia
         else if(clickedBlock == Blocks.ACACIA_PLANKS) {
             world.setBlockState(positionClicked, ModBlocks.DECORATED_ACACIA_PLANKS.getDefaultState());
             context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
@@ -90,8 +91,192 @@ public class DecoratorToolItem extends Item {
             world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
             finished = true;
         }
-
-
+        //Birch
+        else if(clickedBlock == Blocks.BIRCH_PLANKS) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_BIRCH_PLANKS.getDefaultState());
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.BIRCH_LOG) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_BIRCH_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.BIRCH_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_BIRCH_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_BIRCH_LOG) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_BIRCH_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_BIRCH_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_BIRCH_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        //Birch
+        else if(clickedBlock == Blocks.SPRUCE_PLANKS) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_SPRUCE_PLANKS.getDefaultState());
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.SPRUCE_LOG) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_SPRUCE_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.SPRUCE_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_SPRUCE_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_SPRUCE_LOG) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_SPRUCE_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_SPRUCE_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_SPRUCE_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        //Birch
+        else if(clickedBlock == Blocks.JUNGLE_PLANKS) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_JUNGLE_PLANKS.getDefaultState());
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.JUNGLE_LOG) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_JUNGLE_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.JUNGLE_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_JUNGLE_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_JUNGLE_LOG) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_JUNGLE_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_JUNGLE_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_JUNGLE_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        //Dark Oak
+        else if(clickedBlock == Blocks.DARK_OAK_PLANKS) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_DARK_OAK_PLANKS.getDefaultState());
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.DARK_OAK_LOG) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_DARK_OAK_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.DARK_OAK_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_DARK_OAK_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_DARK_OAK_LOG) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_DARK_OAK_LOG.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_DARK_OAK_WOOD) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_DARK_OAK_WOOD.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        //Crimson
+        else if(clickedBlock == Blocks.CRIMSON_PLANKS) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_CRIMSON_PLANKS.getDefaultState());
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.CRIMSON_STEM) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_CRIMSON_STEM.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.CRIMSON_HYPHAE) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_CRIMSON_HYPHAE.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_CRIMSON_STEM) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_CRIMSON_STEM.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_CRIMSON_HYPHAE) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_CRIMSON_HYPHAE.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        //Warped
+        else if(clickedBlock == Blocks.WARPED_PLANKS) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_WARPED_PLANKS.getDefaultState());
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.WARPED_STEM) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_WARPED_STEM.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.WARPED_HYPHAE) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_WARPED_HYPHAE.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_WARPED_STEM) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_WARPED_STEM.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
+        else if(clickedBlock == Blocks.STRIPPED_WARPED_HYPHAE) {
+            world.setBlockState(positionClicked, ModBlocks.DECORATED_STRIPPED_WARPED_HYPHAE.getDefaultState().with(ModLogBlock.AXIS, state.get(ModLogBlock.AXIS)));
+            context.getStack().damage(1, context.getPlayer(), (p) -> p.sendToolBreakStatus(p.getActiveHand()));
+            world.playSound(player, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.NEUTRAL, 1.0f, 1.0f);
+            finished = true;
+        }
 
         if(finished){
         return ActionResult.success(true);
