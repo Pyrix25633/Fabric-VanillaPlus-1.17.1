@@ -1,9 +1,6 @@
 package net.pyrix25633.vanilla_plus;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.server.MinecraftServer;
 import net.pyrix25633.vanilla_plus.block.ModBlocks;
 import net.pyrix25633.vanilla_plus.item.ModItems;
 import net.pyrix25633.vanilla_plus.registries.ModFlammableBlocks;
@@ -28,14 +25,6 @@ public class VanillaPlus implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModFlammableBlocks.registerFlammables();
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OAK_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ACACIA_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BIRCH_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SPRUCE_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.JUNGLE_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DARK_OAK_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CRIMSON_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WARPED_TABLE, RenderLayer.getCutout());
 
 		LOGGER.info("Hello Fabric world!");
 	}

@@ -19,6 +19,9 @@
   "entrypoints": {
     "main": [
       "net.pyrix25633.vanilla_plus.VanillaPlus"
+    ],
+    "client":[
+      "net.pyrix25633.vanilla_plus.VanillaPlusClient"
     ]
   },
   "mixins": [

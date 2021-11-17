@@ -1,0 +1,38 @@
+package net.pyrix25633.vanilla_plus;
+
+import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.RenderLayer;
+import net.pyrix25633.vanilla_plus.block.ModBlocks;
+import net.pyrix25633.vanilla_plus.item.ModItems;
+import net.pyrix25633.vanilla_plus.registries.ModFlammableBlocks;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class VanillaPlusClient implements ClientModInitializer {
+	// This logger is used to write text to the console and the log file.
+	// It is considered best practice to use your mod id as the logger's name.
+	// That way, it's clear which mod wrote info, warnings, and errors.
+	public static final Logger LOGGER = LogManager.getLogger("vanilla_plus");
+
+	public static final String MOD_ID = "vanilla_plus";
+
+	@Override
+	public void onInitializeClient() {
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
+		ModFlammableBlocks.registerFlammables();
+
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OAK_TABLE, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ACACIA_TABLE, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BIRCH_TABLE, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SPRUCE_TABLE, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.JUNGLE_TABLE, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DARK_OAK_TABLE, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CRIMSON_TABLE, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WARPED_TABLE, RenderLayer.getCutout());
+
+		LOGGER.info("Hello Fabric world!");
+	}
+}

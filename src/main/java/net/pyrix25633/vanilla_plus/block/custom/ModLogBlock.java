@@ -25,12 +25,11 @@ public class ModLogBlock extends Block {
 
     public ModLogBlock(Settings settings) {
         super(settings);
+        this.setDefaultState((BlockState) this.getDefaultState().with(AXIS, Direction.Axis.Y));
     }
 
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
-        BlockPos pos = ctx.getBlockPos();
-
         return (BlockState)this.getDefaultState().with(AXIS, ctx.getSide().getAxis());
     }
 
