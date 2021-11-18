@@ -1,0 +1,61 @@
+{
+  "item.vanilla_plus.decorator_tool": "Decorator Tool",
+
+  "block.vanilla_plus.decorated_oak_planks": "Decorated Oak Planks",
+  "block.vanilla_plus.decorated_oak_log": "Decorated Oak Log",
+  "block.vanilla_plus.decorated_oak_wood": "Decorated Oak Wood",
+  "block.vanilla_plus.decorated_stripped_oak_log": "Decorated Stripped Oak Log",
+  "block.vanilla_plus.decorated_stripped_oak_wood": "Decorated Stripped Oak Wood",
+  "block.vanilla_plus.oak_table": "Oak Table",
+
+  "block.vanilla_plus.decorated_acacia_planks": "Decorated Acacia Planks",
+  "block.vanilla_plus.decorated_acacia_log": "Decorated Acacia Log",
+  "block.vanilla_plus.decorated_acacia_wood": "Decorated Acacia Wood",
+  "block.vanilla_plus.decorated_stripped_acacia_log": "Decorated Stripped Acacia Log",
+  "block.vanilla_plus.decorated_stripped_acacia_wood": "Decorated Stripped Acacia Wood",
+  "block.vanilla_plus.acacia_table": "Acacia Table",
+
+  "block.vanilla_plus.decorated_dark_oak_planks": "Decorated Dark Oak Planks",
+  "block.vanilla_plus.decorated_dark_oak_log": "Decorated Dark Oak Log",
+  "block.vanilla_plus.decorated_dark_oak_wood": "Decorated Dark Oak Wood",
+  "block.vanilla_plus.decorated_stripped_dark_oak_log": "Decorated Stripped Dark Oak Log",
+  "block.vanilla_plus.decorated_stripped_dark_oak_wood": "Decorated Stripped Dark Oak Wood",
+  "block.vanilla_plus.dark_oak_table": "Dark Oak Table",
+
+  "block.vanilla_plus.decorated_jungle_planks": "Decorated Jungle Planks",
+  "block.vanilla_plus.decorated_jungle_log": "Decorated Jungle Log",
+  "block.vanilla_plus.decorated_jungle_wood": "Decorated Jungle Wood",
+  "block.vanilla_plus.decorated_stripped_jungle_log": "Decorated Stripped Jungle Log",
+  "block.vanilla_plus.decorated_stripped_jungle_wood": "Decorated Stripped Jungle Wood",
+  "block.vanilla_plus.jungle_table": "Jungle Table",
+
+  "block.vanilla_plus.decorated_birch_planks": "Decorated Birch Planks",
+  "block.vanilla_plus.decorated_birch_log": "Decorated Birch Log",
+  "block.vanilla_plus.decorated_birch_wood": "Decorated Birch Wood",
+  "block.vanilla_plus.decorated_stripped_birch_log": "Decorated Stripped Birch Log",
+  "block.vanilla_plus.decorated_stripped_birch_wood": "Decorated Stripped Birch Wood",
+  "block.vanilla_plus.birch_table": "Birch Table",
+
+  "block.vanilla_plus.decorated_spruce_planks": "Decorated Spruce Planks",
+  "block.vanilla_plus.decorated_spruce_log": "Decorated Spruce Log",
+  "block.vanilla_plus.decorated_spruce_wood": "Decorated Spruce Wood",
+  "block.vanilla_plus.decorated_stripped_spruce_log": "Decorated Stripped Spruce Log",
+  "block.vanilla_plus.decorated_stripped_spruce_wood": "Decorated Stripped Spruce Wood",
+  "block.vanilla_plus.spruce_table": "Spruce Table",
+
+  "block.vanilla_plus.decorated_warped_planks": "Decorated Warped Planks",
+  "block.vanilla_plus.decorated_warped_stem": "Decorated Warped Stem",
+  "block.vanilla_plus.decorated_warped_hyphae": "Decorated Warped Hyphae",
+  "block.vanilla_plus.decorated_stripped_warped_stem": "Decorated Stripped Warped Stem",
+  "block.vanilla_plus.decorated_stripped_warped_hyphae": "Decorated Stripped Warped Hyphae",
+  "block.vanilla_plus.warped_table": "Warped Table",
+
+  "block.vanilla_plus.decorated_crimson_planks": "Decorated Crimson Planks",
+  "block.vanilla_plus.decorated_crimson_stem": "Decorated Crimson Stem",
+  "block.vanilla_plus.decorated_crimson_hyphae": "Decorated Crimson Hyphae",
+  "block.vanilla_plus.decorated_stripped_crimson_stem": "Decorated Stripped Crimson Stem",
+  "block.vanilla_plus.decorated_stripped_crimson_hyphae": "Decorated Stripped Crimson Hyphae",
+  "block.vanilla_plus.crimson_table": "Crimson Table",
+
+  "itemGroup.vanilla_plus.decorated_blocks": "Decorated Blocks"
+}

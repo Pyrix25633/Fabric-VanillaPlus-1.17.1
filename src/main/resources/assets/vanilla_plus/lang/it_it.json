@@ -1,0 +1,61 @@
+{
+  "item.vanilla_plus.decorator_tool": "Attrezzo decoratore",
+
+  "block.vanilla_plus.decorated_oak_planks": "Assi di quercia decorate",
+  "block.vanilla_plus.decorated_oak_log": "Tronco di quercia decorato",
+  "block.vanilla_plus.decorated_oak_wood": "Legno di quercia decorato",
+  "block.vanilla_plus.decorated_stripped_oak_log": "Tronco di quercia scortecciato decorato",
+  "block.vanilla_plus.decorated_stripped_oak_wood": "Legno di quercia scortecciato decorato",
+  "block.vanilla_plus.oak_table": "Tavolo di legno di quercia",
+
+  "block.vanilla_plus.decorated_acacia_planks": "Assi di acacia decorate",
+  "block.vanilla_plus.decorated_acacia_log": "Tronco di acacia decorato",
+  "block.vanilla_plus.decorated_acacia_wood": "Legno di acacia decorato",
+  "block.vanilla_plus.decorated_stripped_acacia_log": "Tronco di acacia scortecciato decorato",
+  "block.vanilla_plus.decorated_stripped_acacia_wood": "Legno di acacia scortecciato decorato",
+  "block.vanilla_plus.acacia_table": "Tavolo di legno di acacia",
+
+  "block.vanilla_plus.decorated_dark_oak_planks": "Assi di quercia scura decorate",
+  "block.vanilla_plus.decorated_dark_oak_log": "Tronco di quercia scura decorato",
+  "block.vanilla_plus.decorated_dark_oak_wood": "Legno di quercia scura decorato",
+  "block.vanilla_plus.decorated_stripped_dark_oak_log": "Tronco di quercia scura scortecciato decorato",
+  "block.vanilla_plus.decorated_stripped_dark_oak_wood": "Legno di quercia scura scortecciato decorato",
+  "block.vanilla_plus.dark_oak_table": "Tavolo di legno di quercia scura",
+
+  "block.vanilla_plus.decorated_jungle_planks": "Assi della giungla decorate",
+  "block.vanilla_plus.decorated_jungle_log": "Tronco della giungla decorato",
+  "block.vanilla_plus.decorated_jungle_wood": "Legno della giungla decorato",
+  "block.vanilla_plus.decorated_stripped_jungle_log": "Tronco della giungla scortecciato decorato",
+  "block.vanilla_plus.decorated_stripped_jungle_wood": "Legno della giungla scortecciato decorato",
+  "block.vanilla_plus.jungle_table": "Tavolo di legno della giungla",
+
+  "block.vanilla_plus.decorated_birch_planks": "Assi di betulla decorate",
+  "block.vanilla_plus.decorated_birch_log": "Tronco di betulla decorato",
+  "block.vanilla_plus.decorated_birch_wood": "Legno di betulla decorato",
+  "block.vanilla_plus.decorated_stripped_birch_log": "Tronco di betulla scortecciato decorato",
+  "block.vanilla_plus.decorated_stripped_birch_wood": "Legno di betulla scortecciato decorato",
+  "block.vanilla_plus.birch_table": "Tavolo di legno di betulla",
+
+  "block.vanilla_plus.decorated_spruce_planks": "Assi di abete decorate",
+  "block.vanilla_plus.decorated_spruce_log": "Tronco di abete decorato",
+  "block.vanilla_plus.decorated_spruce_wood": "Legno di abete decorato",
+  "block.vanilla_plus.decorated_stripped_spruce_log": "Tronco di abete decorato",
+  "block.vanilla_plus.decorated_stripped_spruce_wood": "Legno di abete decorato",
+  "block.vanilla_plus.spruce_table": "Tavolo di legno di abete",
+
+  "block.vanilla_plus.decorated_warped_planks": "Assi distorte decorate",
+  "block.vanilla_plus.decorated_warped_stem": "Gambo distorto decorato",
+  "block.vanilla_plus.decorated_warped_hyphae": "Ife distorte decorate",
+  "block.vanilla_plus.decorated_stripped_warped_stem": "Gambo distorto scortecciato decorato",
+  "block.vanilla_plus.decorated_stripped_warped_hyphae": "Ife distorte scortecciate decorate",
+  "block.vanilla_plus.warped_table": "Tavolo di legno distorto",
+
+  "block.vanilla_plus.decorated_crimson_planks": "Assi cremisi decorate",
+  "block.vanilla_plus.decorated_crimson_stem": "Gambo cremisi decorato",
+  "block.vanilla_plus.decorated_crimson_hyphae": "Ife cremisi decorate",
+  "block.vanilla_plus.decorated_stripped_crimson_stem": "Gambo cremisi scortecciato decorato",
+  "block.vanilla_plus.decorated_stripped_crimson_hyphae": "Ife cremisi scortecciate decorate",
+  "block.vanilla_plus.crimson_table": "Tavolo di legno cremisi",
+
+  "itemGroup.vanilla_plus.decorated_blocks": "Blocchi decorati"
+}

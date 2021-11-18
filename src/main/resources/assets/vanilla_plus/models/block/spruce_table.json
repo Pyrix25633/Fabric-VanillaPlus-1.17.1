@@ -1,0 +1,7 @@
+{
+	"parent": "wild_update:block/table",
+	"textures": {
+		"legs": "minecraft:block/stripped_spruce_log",
+		"top": "minecraft:block/spruce_planks"
+	}
+}

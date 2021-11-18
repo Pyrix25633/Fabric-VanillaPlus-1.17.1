@@ -1,0 +1,7 @@
+{
+	"parent": "wild_update:block/table",
+	"textures": {
+		"legs": "minecraft:block/stripped_oak_log",
+		"top": "minecraft:block/oak_planks"
+	}
+}

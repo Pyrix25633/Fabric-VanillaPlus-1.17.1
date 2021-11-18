@@ -1,0 +1,7 @@
+{
+	"parent": "wild_update:block/table",
+	"textures": {
+		"legs": "minecraft:block/stripped_warped_stem",
+		"top": "minecraft:block/warped_planks"
+	}
+}
