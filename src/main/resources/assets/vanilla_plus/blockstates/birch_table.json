@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "vanilla_plus:block/table/birch_table"
+      "model": "vanilla_plus:block/birch_table"
     }
   }
 }
