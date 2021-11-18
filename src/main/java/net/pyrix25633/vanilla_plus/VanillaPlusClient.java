@@ -24,15 +24,6 @@ public class VanillaPlusClient implements ClientModInitializer {
 
 		ModFlammableBlocks.registerFlammables();
 
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OAK_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ACACIA_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BIRCH_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SPRUCE_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.JUNGLE_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DARK_OAK_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CRIMSON_TABLE, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WARPED_TABLE, RenderLayer.getCutout());
-
 		LOGGER.info("Hello Fabric world!");
 	}
 }

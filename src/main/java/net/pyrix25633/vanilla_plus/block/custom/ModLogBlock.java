@@ -125,7 +125,6 @@ public class ModLogBlock extends Block {
                     finished = true;
                 }
             }
-
         }
 
         if(finished){

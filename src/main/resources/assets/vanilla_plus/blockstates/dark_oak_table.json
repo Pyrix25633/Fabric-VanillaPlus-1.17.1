@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "vanilla_plus:block/dark_oak_table"
+      "model": "vanilla_plus:block/table/dark_oak_table"
     }
   }
 }
