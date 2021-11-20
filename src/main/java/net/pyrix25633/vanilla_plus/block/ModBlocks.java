@@ -49,6 +49,16 @@ public class ModBlocks {
                     .strength(woodHardness, woodResistance)
                     .breakByTool(FabricToolTags.AXES)
                     .sounds(BlockSoundGroup.WOOD).nonOpaque()));
+    public static final Block HOLLOW_OAK_LOG = registerWoodBlock("hollow_oak_log",
+            new HollowLog(FabricBlockSettings.of(Material.WOOD)
+                    .strength(woodHardness, woodResistance)
+                    .breakByTool(FabricToolTags.AXES)
+                    .sounds(BlockSoundGroup.WOOD).nonOpaque()));
+    public static final Block STRIPPED_HOLLOW_OAK_LOG = registerWoodBlock("stripped_hollow_oak_log",
+            new HollowLog(FabricBlockSettings.of(Material.WOOD)
+                    .strength(woodHardness, woodResistance)
+                    .breakByTool(FabricToolTags.AXES)
+                    .sounds(BlockSoundGroup.WOOD).nonOpaque()));
     //Acacia
     public static final Block DECORATED_ACACIA_PLANKS = registerWoodBlock("decorated_acacia_planks",
             new Block(FabricBlockSettings.of(Material.WOOD)

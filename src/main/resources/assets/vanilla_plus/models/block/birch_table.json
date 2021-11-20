@@ -1,5 +1,5 @@
 {
-	"parent": "wild_update:block/table",
+	"parent": "vanilla_plus:block/table",
 	"textures": {
 		"legs": "minecraft:block/stripped_birch_log",
 		"top": "minecraft:block/birch_planks"
